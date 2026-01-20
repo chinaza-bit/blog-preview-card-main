@@ -8,7 +8,7 @@ body{
     background-color: hsl(47, 88%, 63%);
     font-family: sans-serif;
 }
-.container{
+section .container{
     border: 1px solid #000;
     padding: 1.13em;
     box-sizing: border-box;
@@ -40,11 +40,11 @@ h1:hover{
     align-items: center;font-size: 1em;
 }
 
-#illustration-article{ border-radius: 10px;}
+img .illustration-article{ border-radius: 10px;}
 .date{ color: hsl(0, 0%, 7%);}
 .article{ color: hsl(0, 0%, 42%);}
 .name{ font-weight: 800;}
-#avater{
+img .avater{
     height: 12%;
     width: 12%;
 }
